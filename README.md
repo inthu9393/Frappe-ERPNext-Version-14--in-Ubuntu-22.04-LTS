@@ -99,7 +99,7 @@ add this to the 50-server.cnf file
     datadir = /var/lib/mysql
     tmpdir = /tmp
     lc-messages-dir = /usr/share/mysql
-    bind-address = 127.0.0.1
+    bind-address = 192.168.1.10
     query_cache_size = 16M
     log_error = /var/log/mysql/error.log
     
